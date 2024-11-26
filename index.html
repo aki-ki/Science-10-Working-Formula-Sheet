@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Science 10 Formula Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <!-- Speed, Acceleration, Force, Work -->
+    <h1>Science 10 Physics Formulas</h1>
+    <p id="light-dark"><button id="light-mode">Light Mode</button> <button id="dark-mode">Dark Mode</button></p>
+    <hr />
+    <!-- Speed -->
+    <h2 class="speed">Speed</h2>
+
+  
+
+    <p id="speedpicpara"><img id="speedpic" src="images/formula1.png" alt="speed formula" /></p>
+    <ul>
+      <li><span class="speedspan">Speed</span> = s</li>
+      <li><span class="speedspan">Time </span>= t</li>
+      <li><span class="speedspan">Distance</span> = d</li>
+    </ul>
+    <p>
+      <span class="bold">Speed</span> is measured in
+      <span class="speedspan">km/h</span> (Kilometers per hour) or
+      <span class="speedspan">m/s</span> (meters per second)
+    </p>
+    <p>
+      <span class="bold">Time</span> is measured in
+      <span class="speedspan">s</span> (seconds) or
+      <span class="speedspan">h</span>
+      (hours)
+    </p>
+    <p>
+      <span class="bold">Distance</span> is measured in
+      <span class="speedspan">km</span> (kilometers) or
+      <span class="speedspan">m</span> (meters)
+    </p>
+    <h3 class="speed">Speed Practice Questions</h3>
+    <h4 class="bold">
+      Input the values you have, then press the button of the missing value.
+    </h4>
+    <p>What unit do you want your answer in?</p>
+    <p class="smallparagraph">
+      (must use corresponding values to calculate, eg. for m/s, use seconds and
+      meters)
+
+
+      <select name="" id="unit-value">
+        <option value="km/h">km/h</option>
+        <option value="m/s">m/s</option>
+        <option value="s">s</option>
+        <option value="h">h</option>
+        <option value="m">m</option>
+        <option value="km">km</option>
+      </select>
+    </p>
+
+
+    <p>
+      How many digits do you want your answer rounded to? (between 0-100)
+      <input type="number" name="" id="digits-speed" />
+    </p>
+    <p>
+     <span class="speedspan"> Speed </span><input id="speed-speed-formula" type="number" />
+      <button id="speed-speed-formula-button">CALCULATE "s"</button>
+    </p>
+    <p>
+      <span class="speedspan">Time </span><input type="number" name="" id="time-speed-formula" />
+      <button id="time-speed-formula-button">CALCULATE "t""</button>
+    </p>
+    <p>
+      <span class="speedspan">Distance </span><input id="distance-speed-formula" type="number" />
+      <button id="distance-speed-formula-button">CALCULATE d"</button>
+    </p>
+
+
+    Your <span id="speed-span">___</span> is <span id="speed-value">----</span>
+
+
+    <p>
+      <!-- This formula is used to calculate speed, but you can flip it around to -->
+      <!-- find time or distance. -->
+    </p>
+    <hr />
+    <!-- Acceleration -->
+    <h2 class="acceleration">Acceleration</h2>
+    <p id="accelerationpicpara"><img
+      id="accelerationpic"
+      src="images/acceleratiin.png"
+      alt="acceleration formula"
+    /></p>
+    <ul>
+      <li><span class="accspan">Acceleration</span> = a</li>
+      <li><span class="accspan">Final speed</span> = vf</li>
+      <li><span class="accspan">Initial speed </span>= vi</li>
+      <li><span class="accspan">Final time</span> = tf</li>
+      <li><span class="accspan">Initial time</span> = ti</li>
+    </ul>
+    <p>
+      <span class="bold">Acceleration</span> is measured in
+      <span class="accspan"> m/s² </span>(meters per second squared)
+    </p>
+    <p>
+      <span class="bold">Time</span> is measured in
+      <span class="accspan">s</span> (seconds)
+    </p>
+    <p>
+      <span class="bold">Speed </span>is measured in 
+      <span class="accspan"> m/s</span> (meters per second)
+    </p>
+    <h3 class="acceleration">Acceleration Calculator</h3>
+    <h4>
+      Input the values you have, then press the button of the missing value.
+    </h4>
+    <p>
+      How many digits do you want your answer rounded to? (between 0-100)
+      <input type="number" name="" id="digits" />
+    </p>
+    <p>
+     <span class="accspan"> Acceleration </span><input id="acceleration" type="number" />
+      <button id="acceleration-button">CALCULATE "a"</button>
+    </p>
+    <p>
+      <span class="accspan">Time</span> <input type="number" name="" id="time" />
+      <button id="time-button">CALCULATE "t""</button>
+    </p>
+    <p>
+      <span class="accspan">Initial Speed</span> <input id="initial-speed" type="number" />
+      <button id="vi-button">CALCULATE "vi"</button>
+    </p>
+    <p>
+     <span class="accspan"> Final Speed</span> <input id="final-speed" type="number" />
+      <button id="vf-button">CALCULATE "vf"</button>
+    </p>
+    Your <span id="accelerationSpan">___</span> is <span id="value">----</span>
+    <hr />
+    <!-- Force -->
+    <h2 class="force">Force</h2>
+    <p id="forcepicpara"><img id="forcepic" src="images/force.png" alt="force formula" /></p>
+    <ul>
+      <li><span class="forcespan">Force</span> = F</li>
+      <li><span class="forcespan">Mass</span> = m</li>
+      <li><span class="forcespan">Acceleration</span> = a</li>
+    </ul>
+    <p>
+      <span class="bold">Force</span> is measured in
+      <span class="forcespan">N</span> (newtons)
+    </p>
+    <p>
+      <span class="bold">Mass</span> is measured in
+      <span class="forcespan">kg</span> (kilograms)
+    </p>
+    <p>
+      <span class="bold">Acceleration</span> is measured in<span
+        class="forcespan"
+        > m/s² </span
+      >(meters per second squared)
+    </p>
+    <h3 class="force">Force Calculator</h3>
+    <h4>
+      Input the values you have, then press the button of the missing value.
+    </h4>
+    <p>
+      How many digits do you want your answer rounded to? (between 0-100)
+      <input type="number" name="" id="digits-force" />
+    </p>
+    <p>
+     <span class="forcespan"> Force</span> <input id="force-force-formula" type="number" />
+      <button id="force-force-formula-button">CALCULATE "F"</button>
+    </p>
+    <p>
+      <span class="forcespan">Mass</span> <input type="number" name="" id="mass-force-formula" />
+      <button id="mass-force-formula-button">CALCULATE "m""</button>
+    </p>
+    <p>
+      <span class="forcespan">Acceleration</span> <input id="acceleration-force-formula" type="number" />
+      <button id="acceleration-force-formula-button">CALCULATE "a"</button>
+    </p>
+
+
+    Your <span id="force-span">___</span> is <span id="force-value">----</span>
+
+
+    <hr />
+    <!-- Work -->
+    <h2 class="work">Work</h2>
+    
+
+    <p id="workpicpara"><img id="workpic" src="images/formula4.png" alt="work formula" /></p>
+    <ul>
+      <li><span class="workspan">Work</span> = W</li>
+      <li><span class="workspan">Force</span> = F</li>
+      <li><span class="workspan">Distance</span> = d</li>
+    </ul>
+    <p>
+      <span class="bold">Work</span> is measured in
+      <span class="workspan">J</span> (joules/newton meters)
+    </p>
+    <p>
+      <span class="bold">Force</span> is measured in
+      <span class="workspan">N </span>(newtons)
+    </p>
+    <p>
+      <span class="bold">Distance</span> is measured in
+      <span class="workspan">m </span>(meters)
+    </p>
+    <p>
+      Work can also be represented by the formula is
+      <span class="workspan">"W=mad"</span>, with
+      <span class="workspan">"m"</span> meaning <span class="bold">mass</span>,
+      <span class="workspan">"a"</span> meaning
+      <span class="bold">acceleration</span>, and
+      <span class="workspan">"d"</span> meaning
+      <span class="bold">distance</span>.
+    </p>
+    <h3 class="work">Work Calculator</h3>
+    <h4>
+      Input the values you have, then press the button of the missing value.
+    </h4>
+    <p>
+      How many digits do you want your answer rounded to? (between 0-100)
+      <input type="number" name="" id="digits-work" />
+    </p>
+    <p>
+      <span class="workspan">Work</span> <input id="work-work-formula" type="number" />
+      <button id="work-work-formula-button">CALCULATE "W"</button>
+    </p>
+    <p>
+      <span class="workspan">Force</span> <input type="number" name="" id="force-work-formula" />
+      <button id="force-work-formula-button">CALCULATE "F""</button>
+    </p>
+    <p>
+      <span class="workspan">Distance</span> <input id="distance-work-formula" type="number" />
+      <button id="distance-work-formula-button">CALCULATE "d"</button>
+    </p>
+
+
+    Your <span id="work-span">___</span> is <span id="work-value">----</span>
+
+
+    <hr />
+    <!-- Conversions -->
+    <table>
+      <!-- row 1 -->
+      <th colspan="6"><b>Interactive Conversion Table</b></th>
+      <tr>
+        <td colspan="1">Unit</td>
+        <td>Symbol</td>
+        <td colspan="1">Equivalent Unit</td>
+        <td>Symbol</td>
+      </tr>
+      <!-- Row 2 -->
+      <tr>
+        <td>1 Kilometer</td>
+        <td>km</td>
+        <td>1000 meters</td>
+        <td>m</td>
+      </tr>
+      <!-- Row 3 -->
+      <tr>
+        <td>1 Kilogram</td>
+        <td>kg</td>
+        <td>1000 Grams</td>
+        <td>g</td>
+      </tr>
+      <!-- Row 4 -->
+      <tr>
+        <td>1 Minute</td>
+        <td>min</td>
+        <td>60 Seconds</td>
+        <td>s</td>
+      </tr>
+      <!-- Row 5 -->
+      <tr>
+        <td>1 Hour</td>
+        <td>h</td>
+        <td>60 Minutes</td>
+        <td>min</td>
+      </tr>
+      <!-- Row 6 -->
+      <tr>
+        <td>1 Kilometer Per Hour</td>
+        <td>km/h</td>
+        <td>3.6 meters Per second</td>
+        <td>m/s</td>
+      </tr>
+    </table>
+
+
+    <table>
+      <!-- Row 1 -->
+      <tr>
+        <td>Value</td>
+        <td>Unit</td>
+        <td>To</td>
+        <td>Unit</td>
+        <td>Go!</td>
+        <td>Result</td>
+      </tr>
+      <!-- Row 2 -->
+      <tr>
+        <td><input id="convert-in" placeholder="Input Value Here" /></td>
+        <td>
+          <select id="from-select">
+            <option value="km">km</option>
+            <option value="kg">kg</option>
+            <option value="min">min</option>
+            <option value="h">h</option>
+            <option value="m/s">m/s</option>
+            <option value="m">m</option>
+            <option value="g">g</option>
+            <option value="s">s</option>
+            <option value="min">min</option>
+            <option value="km/h">km/h</option>
+          </select>
+        </td>
+        <td>-></td>
+        <td>
+          <select id="to-select">
+            <option value="km">km</option>
+            <option value="kg">kg</option>
+            <option value="min">min</option>
+            <option value="h">h</option>
+            <option value="m/s">m/s</option>
+            <option value="m">m</option>
+            <option value="g">g</option>
+            <option value="s">s</option>
+            <option value="min">min</option>
+            <option value="km/h">km/h</option>
+          </select>
+        </td>
+        <td>
+          <button id="go-btn">Go!</button>
+          <td id="result">----</td>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

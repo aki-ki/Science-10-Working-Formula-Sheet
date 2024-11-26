@@ -1,0 +1,189 @@
+html {
+    background-color: grey;
+  }
+  body {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+    color: black;
+  }
+  hr {
+    width: 800px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  button {
+    font-family: "Roboto Slab";
+  }
+  p,
+  ul,
+  ol {
+    font-family: "Work Sans";
+  }
+  
+  
+  /* REMEMBER TO STYLE THE BUTTONS AND INPUTS !!! */
+  
+  
+  table {
+    margin: auto;
+    font-family: "Work Sans";
+    text-align: center;
+    font-size: 20px;
+    border: 2px, rgb(65, 76, 114), solid;
+    border-radius: 5px;
+    width: 900px;
+  }
+  td {
+    border: 2px solid grey;
+  }
+  #speedpic {
+    width: 200px;
+  }
+  
+  
+  #accelerationpic,
+  #forcepic {
+    width: 250px;
+  }
+  #workpic {
+    width: 300px;
+  }
+  .speedspan {
+    color: blue;
+  }
+  h1 {
+    text-align: center;
+  }
+  .speed {
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+  .bold {
+    font-weight: 500;
+  }
+  ul {
+    list-style: circle;
+  }
+  h4 {
+    font-size: small;
+    margin-top: -15px;
+  }
+  .work {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  .workspan {
+    color: red;
+  }
+  .acceleration {
+    text-decoration: underline;
+    text-decoration-color: green;
+  }
+  .accspan {
+    color: green;
+  }
+  .force {
+    text-decoration: underline;
+    text-decoration-color: orange;
+  }
+  .forcespan {
+    color: rgb(206, 134, 0);
+  }
+  th {
+    border: 2px, solid, rgb(78, 78, 78);
+  }
+  input {
+    font-family: "Work Sans";
+    font-size: 20px;
+    text-align: center;
+  }
+  #speed-speed-formula-button,
+  #time-speed-formula-button,
+  #distance-speed-formula-button {
+    width: 120px;
+    color: rgb(7, 7, 100);
+    background-color: rgb(183, 200, 255);
+    border-color: white;
+    border-radius: 10px;
+  }
+  
+  
+  #acceleration-button,
+  #time-button,
+  #vi-button,
+  #vf-button {
+    width: 125px;
+    background-color: rgb(236, 255, 241);
+    color: rgb(5, 46, 7);
+    border-color: white;
+    border-radius: 10px;
+  }
+  
+  
+  #force-force-formula-button,
+  #acceleration-force-formula-button,
+  #mass-force-formula-button {
+    width: 125px;
+    background-color: rgb(255, 245, 186);
+    color: rgb(171, 128, 0);
+    border-color: white;
+    border-radius: 10px;
+  }
+  
+  
+  #work-work-formula-button,
+  #force-work-formula-button,
+  #distance-work-formula-button {
+    width: 125px;
+    color: rgb(46, 5, 5);
+    background-color: rgb(255, 223, 223);
+    border-color: white;
+    border-radius: 10px;
+  }
+  
+  
+  select {
+    border-radius: 5px;
+    color: rgb(32, 28, 90);
+    background-color: white;
+  }
+  option:hover {
+    background-color: rgb(32, 28, 90);
+  }
+  
+  
+  #light-dark {
+    text-align: center;
+  }
+  #light-mode {
+    background-color: white;
+    color: black;
+    border: black solid 2px;
+    border-radius: 5px;
+  }
+  #dark-mode {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: white solid 2px;
+    border-radius: 5px;
+  }
+  input {
+    width: 150px;
+    height: 20px;
+  }
+  #go-btn {
+    border-radius: 5px;
+    color:  rgb(32, 28, 90);
+    background-color: white;
+  }
+
+  #convert-in {
+    width: 200px;
+  }
+  
+  
+  
